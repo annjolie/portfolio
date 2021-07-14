@@ -1,0 +1,22 @@
+.competencias {
+    display: flex;
+    flex-direction: column;
+    h3 {
+        color: black;
+        font-weight: 400 !important;
+    }
+    .imagenes {
+        display: flex;
+        flex-direction: row;
+        .dark {
+            border: 2px solid rgb(66, 66, 66);
+            width: 2em;
+            margin-right: 5px;
+        }
+        .light {
+            border: 2px solid rgba(66, 66, 66, 0.295);
+            width: 2em;
+            margin-right: 5px;
+        }
+    }
+}
