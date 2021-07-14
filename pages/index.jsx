@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Cabecera from '../components/cabecera'
-import Competencias from '../components/rrss'
+import Competencias from '../components/competencias'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
